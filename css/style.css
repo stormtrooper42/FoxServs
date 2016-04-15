@@ -242,6 +242,8 @@ nav li a {
     font-weight: 400;
     font-size: 20px;
     border-left: solid 0.5px #3e87ec; 
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 nav li a:link{
@@ -249,7 +251,12 @@ nav li a:link{
 }
 
 
+nav li a:hover{
+	background-color: #3e87ec;
+	border-left: solid 0.5px #fff; 
+	color: white;
 
+}
 
 footer{
 	margin-top: 10px;
