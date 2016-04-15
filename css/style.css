@@ -7,6 +7,21 @@ body{
 	padding: 0px;
 }
 
+.avert{
+	margin-top: 0px;
+	height: 100px;
+	background-color: #2F2F32;
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.avert h1{
+	font-size: 25px;
+	padding-top: 30px;
+	margin-top: 0px;
+}
+
 .pre-header{
 	margin-top: 0px;
 	height: 3px;
