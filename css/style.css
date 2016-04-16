@@ -260,6 +260,10 @@ nav li a {
     transition-duration: 0.4s;
 }
 
+nav li #vps{
+	   padding: 11px 25px;
+}
+
 nav li a:link{
 	text-decoration: none;
 }
